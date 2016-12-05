@@ -124,12 +124,12 @@ namespace WindowsFormsApplication2
                 _mySoftphone.StartCall(_numberToCall);
             }
 
-            if (e.State == CallState.Answered && _exampleSteps == "Redialed")
-            {
-                _exampleSteps = "Transfering";
-                _mySoftphone.TransferTo(_numberToTransfer);
-                _MainWin.WriteMsg("The call is: " + _exampleSteps + " by the user!");
-            }
+            //if (e.State == CallState.Answered && _exampleSteps == "Redialed")
+            //{
+            //    _exampleSteps = "Transfering";
+            //    _mySoftphone.TransferTo(_numberToTransfer);
+            //    _MainWin.WriteMsg("The call is: " + _exampleSteps + " by the user!");
+            //}
         }
 
    
